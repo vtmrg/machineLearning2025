@@ -24,7 +24,7 @@ C2[:,2]=C1[:,2]*0+1
 
 A=np.concatenate((C1,C2))
 plt.scatter(A[:,0],A[:,1],c=A[:,2])
-plt.grid()]
+plt.grid()
 
 
 
